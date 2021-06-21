@@ -47,6 +47,8 @@ public class CsvFileParser implements FileParser {
 
         } catch (FileNotFoundException e) {
             System.out.println("Cannot find file with name: " + fileName);
+        } catch (Exception e) {
+            System.out.println(String.format("Exception has occurred within processing file: %s. Exception message: %s", fileName, e.getMessage()));
         }
     }
 
