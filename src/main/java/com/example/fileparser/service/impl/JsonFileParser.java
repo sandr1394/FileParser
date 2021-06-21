@@ -45,8 +45,6 @@ public class JsonFileParser implements FileParser {
             }
         } catch (FileNotFoundException e) {
             System.out.println("Cannot find file with name: " + fileName);
-        } catch (IOException e) {
-            System.out.println(String.format("Error has occurred during reading file: %s. Error message: %s", fileName, e.getMessage()));
         } catch (Exception e) {
             System.out.println(String.format("Exception has occurred within processing file: %s. Exception message: %s", fileName, e.getMessage()));
         }
