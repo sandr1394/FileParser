@@ -3,7 +3,7 @@
 service for parsing csv and json files
 
 ### How to launch
-cd to root of project. Execute ```mvn install```. Then put files in the same directory as jar of project is located.
+cd to root of project. Execute ```mvn install```. Then put csv or json files in the same directory as jar of project is located.
 Execute ```java -jar jarfilename filename1.extension filename2.extension```
 
 ### Input
